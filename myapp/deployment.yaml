@@ -7,11 +7,11 @@ spec:
         selector:
                 matchLabels:
                         app: myapp
-                template:
-                        metadata:
-                                labels:
-                                        app: myapp
-                                        training: gitops-basic
+        template:
+                metadata:
+                        labels:
+                             app: myapp
+                             training: gitops-basic
                         spec:
                                 containers:
                                         - name: nginx
