@@ -11,7 +11,7 @@ spec:
                 metadata:
                         labels:
                              app: myapp
-                             training: gitops-basic
+                             training: gitops-basic-training
                  spec:
                         containers:
                         - name: nginx
